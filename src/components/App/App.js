@@ -7,20 +7,17 @@ import './App.css'
 
 class App extends React.Component {
     state = {
-        headertext: "hello world"
+        headertext: "Name It !"
     }
     render() {
         return (
             <div>
-                <Header />
-                <h3>{this.state.headertext}</h3>
-                <button onClick={() => {
-                    this.setState({
-                        headertext: "magic happened"
-                    })
-                }}>magic happens here</button>
+                <Header headTitle={this.state.headertext} />
             </div >
         )
     }
 }
 export default App;
+
+//state: data save for future
+//prop: data used to communicate b/n parent and child
