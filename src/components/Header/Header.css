@@ -1,0 +1,15 @@
+.head-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.head-image{
+    width: 300px;
+    margin-top: -35px;
+}
+.head-text{
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Roboto Slab', serif;
+    margin: -10px 0px 15px 0px;
+}
