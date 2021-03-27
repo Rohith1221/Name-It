@@ -4,7 +4,12 @@
     /* align-content: center; */
 }
 .search-input{
-    background: rgb(163, 104, 218);
+    /* background: linear-gradient(to bottom, #33ccff 12%, #ffccff 123%); */
+    /* background-color: #e84393;
+    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%); */
+    /* rgb(163, 104, 218); */
+    background-color: #4c4177;
+background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
     width: 250px;
     color: white;
     align-self: center;
